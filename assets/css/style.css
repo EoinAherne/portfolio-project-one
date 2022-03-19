@@ -50,6 +50,7 @@ h1,h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background-image: url('..images/hero-image.jpg');
+    background-image: url('../images/lego-hero.jpg');
+    background-size: cover;
     overflow: hidden;
 }
