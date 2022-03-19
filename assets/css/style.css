@@ -45,3 +45,10 @@ h1,h2 {
 #menu a:hover{
     border-bottom: 1px solid #596e79;
 }
+
+/* Hero Image */
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/record_hero.jpg')no repeat center center;
+}
