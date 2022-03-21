@@ -22,6 +22,7 @@ h1,h2 {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    color: #596e79;
 }
 
 /* Menu */
@@ -72,21 +73,22 @@ h1,h2 {
 #cover-text {
     font-size: 150%;
     font-family: Josefin sans, sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     width: 300px;
-    height: 200px;
-    padding-top: 30px;
-    padding-left: 25px;
-    padding-bottom: 30px;
+    height: 150px;
+    padding-top: 15px;
+    padding-left: 30px;
+   padding-bottom: 30px;
+    
     background-color: rgba(199, 177, 98, .8);
     
 /* Padding from bottom of hero image section */
-    bottom: 30px;
+    bottom: 130px;
     right: 150px;
 /*Position relative to hero image */
     position: absolute;
 }
-#cover text > h3 h4 {
+#cover text > h3 {
     text-align: right;
 }
 
@@ -96,13 +98,13 @@ h1,h2 {
     height: 600px;
 }
 #info-left {
-    padding-top: 25px;
+    padding-top: 15px;
     width: 50%;
     float: left;
     background-color: #c7b198;
  }
  #info-right {
-     padding-top: 25px;
+     padding-top: 15px;
      width: 50%;
      float: right; 
      background-color: #dfd3c3;
@@ -113,8 +115,9 @@ h1,h2 {
 
  hr {
      border-top: 1px solid #596e79;
-     width: 100%;
+     width: 75%;
      margin: 2px 0;
+     
  }
 
  /* Sytling the right info headings */
@@ -138,10 +141,17 @@ h1,h2 {
 #circle-container {
     width: 300px;
     height: 300px;
-    padding: 30px;
+    padding: 25px;
      border-style: solid;
      border-color: #dfd3c3;
      border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
+}
+#circle-cover-bg {
+    background: url('../images/circle-record.jpg')no-repeat center center;
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+    background-size: cover;
 }
