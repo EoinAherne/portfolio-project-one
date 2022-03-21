@@ -113,18 +113,17 @@ h1,h2 {
  }
 
  /* Styling the Page Break */
-
- hr {
-     border-top: 1px solid #596e79;
-    
-     margin: 2px 0;
-   
- }
+hr {
+ border-bottom: 3px solid #596e79;
+ margin: 0px 2px;
+ margin-bottom: 7px;
+ margin-top: 0%;
+}
  #hr-one {
-     width: 45%;
+     width: 44%;
  }
  #hr-two {
-     width: 55%;
+     width: 54%;
  }
  #hr-three {
      width: 60%;
@@ -133,7 +132,7 @@ h1,h2 {
     width: 75%;
 }
 #hr-five {
-    width: 60%;    
+    width: 49%;    
 }    
 }
  /* Sytling the right info headings */
@@ -163,10 +162,11 @@ h1,h2 {
     height: 300px;
     padding: 25px;
      border-style: solid;
-     border-color: #dfd3c3;
+     border-color: #596e79;
      border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
+      
 }
 #circle-cover-bg {
     background: url('../images/circle-record.jpg')no-repeat center center;
