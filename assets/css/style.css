@@ -21,6 +21,7 @@ h1,h2 {
 #logo  {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* Menu */
@@ -78,13 +79,52 @@ h1,h2 {
     padding-left: 25px;
     padding-bottom: 30px;
     background-color: rgba(199, 177, 98, .8);
-
-
+    
+/* Padding from bottom of hero image section */
     bottom: 30px;
     right: 150px;
-
+/*Position relative to hero image */
     position: absolute;
-
-
-
 }
+#cover text > h3 h4 {
+    text-align: right;
+}
+
+/* Club info section styling left and right */
+
+#club-info {
+    height: 600px;
+}
+#info-left {
+    padding-top: 25px;
+    width: 50%;
+    float: left;
+    background-color: #c7b198;
+ }
+ #info-right {
+     padding-top: 25px;
+     width: 50%;
+     float: right; 
+     background-color: #dfd3c3;
+
+ }
+
+ /* Styling the Page Break */
+
+ hr {
+     border-top: 1px solid #596e79;
+     width: 100%;
+     margin: 2px 0;
+ }
+
+ /* Sytling the right info headings */
+ #info-right-header {
+     width: 66%;
+     float: left;
+     line-height: 25px;
+     clear: both;
+     margin-bottom: 50px 
+ }
+ #info-right-header h2 p {
+     text-align: right;
+ }
