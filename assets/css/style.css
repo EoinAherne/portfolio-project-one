@@ -39,11 +39,12 @@ h1,h2 {
     float: right;
     list-style-type: none;  
     margin-right: 30px;
+    margin-top: 15px;
     
 }
 #menu a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
     
 }
 /* hover function add 1px underline */
@@ -115,11 +116,26 @@ h1,h2 {
 
  hr {
      border-top: 1px solid #596e79;
-     width: 75%;
+    
      margin: 2px 0;
-     
+   
  }
-
+ #hr-one {
+     width: 45%;
+ }
+ #hr-two {
+     width: 55%;
+ }
+ #hr-three {
+     width: 60%;
+ }
+#hr-four {
+    width: 75%;
+}
+#hr-five {
+    width: 60%;    
+}    
+}
  /* Sytling the right info headings */
  #info-right-header {
      width: 66%;
@@ -127,6 +143,7 @@ h1,h2 {
      line-height: 25px;
      clear: both;
      margin-bottom: 50px 
+     
  }
  #info-right-header h2 p {
      text-align: right;
