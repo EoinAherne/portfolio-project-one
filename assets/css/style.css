@@ -175,3 +175,27 @@ hr {
     border-radius: 50%;
     background-size: cover;
 }
+
+/* Meet up section image */
+#meetups {
+    background-image: url('../images/footer-records.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+
+    }
+#meetups div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .3);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+
+}    
