@@ -101,13 +101,13 @@ h1,h2 {
     padding-top: 15px;
     width: 50%;
     float: left;
-    background-color: #c7b198;
+    
  }
  #info-right {
      padding-top: 15px;
      width: 50%;
      float: right; 
-     background-color: #dfd3c3;
+     
 
  }
 
@@ -131,10 +131,13 @@ h1,h2 {
  #info-right-header h2 p {
      text-align: right;
  }
+
+/* Swap-shop section header */   
 #swap-shop {
     text-align: center;
     font-size: 300%;
     margin:25px 0;
+    
 }
 
 /* Circle image for info section left */
