@@ -31,26 +31,60 @@ h1,h2 {
 /* Line height for header secion, used body and logo id tags layout presented in multiples of 75  */
 #menu #logo  {
     line-height: 75px;
+    text-align: center;
 }    
 #menu li {      
     float: right;
     list-style-type: none;  
     margin-right: 30px;
+    
 }
 #menu a {
     text-decoration: none;
     color: inherit
+    
 }
 /* hover function add 1px underline */
 #menu a:hover{
     border-bottom: 1px solid #596e79;
 }
 
+
+/* Cover Text Styling boilerplate*/
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+   }
+
 /* Hero Image */
 #hero-image {
     height: 600px;
     width: 100%;
+    position: relative;
     background-image: url('../images/lego-hero.jpg');
     background-size: cover;
     overflow: hidden;
+}
+
+
+/* Cover Text */ 
+#cover-text {
+    font-size: 150%;
+    font-family: Josefin sans, sans-serif;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    background-color: rgba(199, 177, 98, .8);
+
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+
+
 }
