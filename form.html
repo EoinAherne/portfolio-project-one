@@ -31,33 +31,34 @@
     </nav>
     </header>
 <section>
-    <div id="form-left">
-        <h2>Would you like to become a record vendor?</h2>  
-        <p>Please fill in the form below to apply for a position at one of our events!</p>  
-</div>  
-    <div id="form-right">
-    <form>
+    <div id="form-title">
+        <h2 id="vendor" >Would you like to become a record vendor?</h2>  
+        <p id="vendor-p">Please fill in the form below to apply for a position at one of our events!</p>  
+  
+    
+    <form id="form-main" >
         <fieldset>
-            <legend>User Details</legend>
-                <label for="fname" id="fname" name="fname">First Name:</label>
-                    <input type="text" id="fname" name="fname">
-                <label for="lname" id="lname">Last Name:</label> 
-                    <input type="text" id="lname" name="lname">
+            <legend><h3>User Details</h3></legend>
+                <label for="fname" id="fname" name="fname"><h4>First Name:</h4></label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                <label for="lname" id="lname"><h4>Last Name:</h4></label> 
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" required>
         </fieldset>            
         <fieldset>
-            <legend>Contact Information</legend> 
-                <label for="email" id="email" name="email" type="email">Email Address:</label>
-                    <input type="email" id="email" name="email">
+            <legend><h3>Contact Information</h3></legend> 
+                <label for="email" id="email" name="email" type="email"><h4>Email Address:</h4></label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email" required>
         </fieldset>
           
-            <input type="submit" value="Sign up"> 
+            <input id="sign-up" type="submit" value="Sign up"> 
+            
          
     </form>       
-           
+    </div>
 </section>
         
         
-</section>
+
 <footer>
     <ul class="socials">
         <li>

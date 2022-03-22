@@ -237,17 +237,34 @@ hr {
 
 /* Form */
 
-#form-left{
+#form-title{
     clear: both;
     overflow: hidden; 
     height: 300px;
-    width: 50%;
+    width: 100%;
     background-color: #c7b198;
-    padding-top: 150px; 
+    padding-top: 75px; 
     padding-left: 30px;
-    
 }
-#form-right {
-    clear:both
-    
+
+/* Style form headings */
+
+#vendor   {
+    font-family: Fira Mono;
+    font-size: 200%;
+    text-align: center;
+    letter-spacing: -1px;
+}
+#vendor-p {
+    font-family: Fira mono;
+    padding: 10px;
+    font-size:120%;
+    text-align: center;
+}
+
+/* Form styling main body */  
+
+#form-main {
+    font-family: Fira Mono;
+    text-align: center; 
 }
