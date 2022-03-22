@@ -189,7 +189,7 @@ hr {
     }
 #meetups div {
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .7);
     width: 20%;
     height: 300px;
     float: left;
@@ -240,7 +240,7 @@ hr {
 #form-title{
     clear: both;
     overflow: hidden; 
-    height: 300px;
+    height: 600px;
     width: 100%;
     background-color: #c7b198;
     padding-top: 75px; 
@@ -258,7 +258,7 @@ hr {
 #vendor-p {
     font-family: Fira mono;
     padding: 10px;
-    font-size:120%;
+    font-size:150%;
     text-align: center;
 }
 
@@ -267,4 +267,43 @@ hr {
 #form-main {
     font-family: Fira Mono;
     text-align: center; 
+}
+#user-details {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size:150%;
+    text-align: center;
+
+}
+#fname {
+   
+    background-color: #dfd3c3;
+    width:40%
+    
+    
+}    
+#lname {
+    
+    background-color: #dfd3c3;
+    width: 40%;
+}
+#contact {
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+#email {
+    background-color: #dfd3c3;
+    width: 40%;
+}
+/* Style sign up button */
+#sign-up {
+    height: 10%;
+    width: 10%;
+    padding-top:2px ;
+    padding-bottom: 2px;
+    background-color: #596e79;
+    color: #f0ece2;
+   text-decoration: none;
+    
+
 }
