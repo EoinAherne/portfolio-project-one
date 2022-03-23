@@ -334,7 +334,7 @@ hr {
     hr {
         display: none;
     }
-    #cover-text {
+    #cover-text { /*aligns cover text to left*/
         left: 0;
         border-top: 200px 
     }
@@ -352,5 +352,15 @@ hr {
     #logo {
         font-size: 150%;
     }
-    
+    /* Hero Image */
+#hero-image {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-image: url('../images/lego-hero.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    overflow: hidden;
+}
+
 }
