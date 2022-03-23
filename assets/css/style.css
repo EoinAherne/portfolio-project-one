@@ -307,3 +307,46 @@ hr {
     
 
 }
+/*Aligns menu and centre div for reading on smaller screens */
+
+@media screen and (max-width:768px) {
+    
+    
+    #menu {
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin: right 20px;
+        line-height: 25px;
+    }
+ 
+    #info-left   {
+        float: left;
+        width: 100%;
+        padding: 0;
+
+    }
+    #info-right {
+        clear: both;
+        padding: 0;
+        width: 100%;
+    }
+    hr {
+        display: none;
+    }
+
+}
+@media screen and (max-width:320px) {
+    #menu {
+        clear:left;
+        float:left;
+        margin-left: 30px;
+        margin: right 20px;
+        line-height: 25px;
+        font-size: 80%; 
+    }
+    #logo {
+        font-size: 150%;
+    }
+    
+}
