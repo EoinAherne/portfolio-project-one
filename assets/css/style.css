@@ -334,6 +334,10 @@ hr {
     hr {
         display: none;
     }
+    #cover-text {
+        left: 0;
+        border-top: 200px 
+    }
 
 }
 @media screen and (max-width:320px) {
