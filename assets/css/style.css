@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Josefin+Sans&display=swap');
 
 * {
-    margin:0;
-    padding:0;
-    border:none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
 body {
     font-family: Josefin Sans;
-    font-weight: 300; 
+    font-weight: 300;
     color: #596e79;
 }
 
 /* Headings and logo */
 
-h1,h2 {
+h1,
+h2 {
     font-family: Joefin sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-#logo  {
+
+#logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -29,36 +32,41 @@ h1,h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-      }
+}
+
 /* Line height for header secion, used body and logo id tags layout presented in multiples of 75  */
-#menu #logo  {
+#menu #logo {
     line-height: 75px;
     text-align: center;
-}    
-#menu li {      
+}
+
+#menu li {
     float: right;
-    list-style-type: none;  
+    list-style-type: none;
     margin-right: 30px;
     margin-top: 15px;
-    
-    
+
+
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
-    
+
 }
+
 /* hover function add 1px underline */
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #596e79;
 }
 
 
 /* Cover Text Styling boilerplate*/
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
-   }
+}
 
 /* Hero Image */
 #hero-image {
@@ -71,7 +79,7 @@ h1,h2 {
 }
 
 
-/* Cover Text */ 
+/* Cover Text */
 #cover-text {
     font-size: 150%;
     font-family: Josefin sans, sans-serif;
@@ -80,17 +88,18 @@ h1,h2 {
     height: 150px;
     padding-top: 15px;
     padding-left: 30px;
-   padding-bottom: 30px;
-    
+    padding-bottom: 30px;
+
     background-color: rgba(199, 177, 98, .8);
-    
-/* Padding from bottom of hero image section */
+
+    /* Padding from bottom of hero image section */
     bottom: 130px;
     right: 150px;
-/*Position relative to hero image */
+    /*Position relative to hero image */
     position: absolute;
 }
-#cover text > h3 {
+
+#cover text>h3 {
     text-align: right;
 }
 
@@ -99,62 +108,70 @@ h1,h2 {
 #club-info {
     height: 600px;
 }
+
 #info-left {
     padding-top: 15px;
     width: 50%;
     float: left;
-    
- }
- #info-right {
-     padding-top: 15px;
-     width: 50%;
-     float: right; 
-     
 
- }
-
- /* Styling the Page Break */
-hr {
- border-bottom: 3px solid #596e79;
- margin: 0px 2px;
- margin-bottom: 7px;
- margin-top: 0%;
 }
- #hr-one {
-     width: 44%;
- }
- #hr-two {
-     width: 54%;
- }
- #hr-three {
-     width: 60%;
- }
+
+#info-right {
+    padding-top: 15px;
+    width: 50%;
+    float: right;
+
+
+}
+
+/* Styling the Page Break */
+hr {
+    border-bottom: 3px solid #596e79;
+    margin: 0px 2px;
+    margin-bottom: 7px;
+    margin-top: 0%;
+}
+
+#hr-one {
+    width: 44%;
+}
+
+#hr-two {
+    width: 54%;
+}
+
+#hr-three {
+    width: 60%;
+}
+
 #hr-four {
     width: 75%;
 }
-#hr-five {
-    width: 49%;    
-}    
-}
- /* Sytling the right info headings */
- #info-right-header {
-     width: 66%;
-     float: left;
-     line-height: 25px;
-     clear: both;
-     margin-bottom: 50px 
-     
- }
- #info-right-header h2 p {
-     text-align: right;
- }
 
-/* Swap-shop section header */   
+#hr-five {
+    width: 49%;
+}
+}
+
+/* Sytling the right info headings */
+#info-right-header {
+    width: 66%;
+    float: left;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px
+}
+
+#info-right-header h2 p {
+    text-align: right;
+}
+
+/* Swap-shop section header */
 #swap-shop {
     text-align: center;
     font-size: 300%;
-    margin:25px 0;
-    
+    margin: 25px 0;
+
 }
 
 /* Circle image for info section left */
@@ -162,13 +179,14 @@ hr {
     width: 300px;
     height: 300px;
     padding: 25px;
-     border-style: solid;
-     border-color: #596e79;
-     border-width: 2px;
+    border-style: solid;
+    border-color: #596e79;
+    border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
-      
+
 }
+
 #circle-cover-bg {
     background: url('../images/circle-record.jpg')no-repeat center center;
     height: 100%;
@@ -186,7 +204,8 @@ hr {
     width: 100%;
     overflow: hidden;
 
-    }
+}
+
 #meetups div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .7);
@@ -197,9 +216,10 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    
 
-}    
+
+}
+
 /* Footer */
 #footer {
     height: 150px;
@@ -210,10 +230,12 @@ hr {
 .socials {
     text-align: center;
 }
-.socials > li {
+
+.socials>li {
     display: inline;
 
-} 
+}
+
 /* Footer styling to icons */
 .socials i {
     font-size: 180%;
@@ -226,141 +248,165 @@ hr {
 /* Gallery */
 
 #photos {
-    clear: both;   /*sets to hover below header*/
+    clear: both;
+    /*sets to hover below header*/
     line-height: 0;
-    column-count:2;
+    column-count: 2;
     column-gap: 0;
 }
-#photos > img {
-    width:100%;
+
+#photos>img {
+    width: 100%;
 }
 
 /* Form */
 
-#form-title{
+#form-title {
     clear: both;
-    overflow: hidden; 
+    overflow: hidden;
     height: 600px;
     width: 100%;
     background-color: #c7b198;
-    padding-top: 75px; 
+    padding-top: 75px;
     padding-left: 30px;
 }
 
 /* Style form headings */
 
-#vendor   {
+#vendor {
     font-family: Fira Mono;
     font-size: 200%;
     text-align: center;
     letter-spacing: -1px;
 }
+
 #vendor-p {
     font-family: Fira mono;
     padding: 10px;
-    font-size:150%;
+    font-size: 150%;
     text-align: center;
 }
 
-/* Form styling main body */  
+/* Form styling main body */
 
 #form-main {
     font-family: Fira Mono;
-    text-align: center; 
+    text-align: center;
 }
+
 #user-details {
     padding-top: 8px;
     padding-bottom: 8px;
-    font-size:150%;
+    font-size: 150%;
     text-align: center;
 
 }
+
 #fname {
-   
+
     background-color: #dfd3c3;
-    width:40%
-    
-    
-}    
+    width: 40%
+}
+
 #lname {
-    
+
     background-color: #dfd3c3;
     width: 40%;
 }
+
 #contact {
     padding-top: 16px;
     padding-bottom: 8px;
 }
+
 #email {
     background-color: #dfd3c3;
     width: 40%;
 }
+
 /* Style sign up button */
 #sign-up {
     height: 10%;
     width: 10%;
-    padding-top:2px ;
+    padding-top: 2px;
     padding-bottom: 2px;
     background-color: #596e79;
     color: #f0ece2;
-   text-decoration: none;
-    
+    text-decoration: none;
+
 
 }
+
 /*Aligns menu and centre div for reading on smaller screens */
 
 @media screen and (max-width:768px) {
-    
-    
+
+
     #menu {
-        clear:left;
-        float:left;
+        clear: left;
+        float: left;
         margin-left: 30px;
         margin: right 20px;
         line-height: 25px;
     }
- 
-    #info-left   {
+
+    #info-left {
         float: left;
         width: 100%;
         padding: 0;
 
     }
+
     #info-right {
         clear: both;
         padding: 0;
         width: 100%;
     }
+
     hr {
         display: none;
     }
-    #cover-text { /*aligns cover text to left*/
+
+    #cover-text {
+        /*aligns cover text to left*/
         left: 0;
-        border-top: 200px 
+        border-top: 200px
     }
 
+    #meetups>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 5%;
+    }
+
+
 }
+
 @media screen and (max-width:320px) {
     #menu {
-        clear:left;
-        float:left;
+        clear: left;
+        float: left;
         margin-left: 30px;
         margin: right 20px;
         line-height: 25px;
-        font-size: 80%; 
+        font-size: 80%;
     }
+
     #logo {
         font-size: 150%;
     }
+
     /* Hero Image */
-#hero-image {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    background-image: url('../images/lego-hero.jpg');
-    background-repeat: no-repeat; 
-    background-size:cover;
-    overflow: hidden;
-}
+    #hero-image {
+        height: 600px;
+        width: 100%;
+        position: relative;
+        float: left;
+        background-image: url('../images/lego-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
 
 }
