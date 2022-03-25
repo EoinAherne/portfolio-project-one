@@ -1,4 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# <p align="center"> Eoin Aherne - Portfolio Project 1 - Code Institute </p>
+
+![Responsive screen template](../portfolio-project-one/assets/images/responsive-screens-template.jpg)
 
 This is a website for a nationwide Record Swap Shop event. It is designed to be fully responsive and accessible across a large range of devices. Laid out in a clear fashion, it should be easy to naviagate for first time and returning users 
 
