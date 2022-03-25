@@ -267,7 +267,7 @@ footer {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin: right 20px;
+        margin-right: 20px;
         line-height: 25px;
     }
     .info-left {
@@ -301,7 +301,7 @@ footer {
         clear: left;
         float: left;
         margin-left: 30px;
-        margin: right 20px;
+        margin-right: 20px;
         line-height: 25px;
         font-size: 80%;
     }
@@ -324,7 +324,7 @@ footer {
         height: 600px;
         width: 100%;
         position: relative;
-        float: 0;
+        float 0;
         background-image: url('../images/lego-hero.jpg');
         background-repeat: no-repeat;
         overflow: hidden;
