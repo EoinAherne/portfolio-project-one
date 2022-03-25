@@ -5,69 +5,53 @@
     padding: 0;
     border: none;
 }
-
 body {
     font-family: 'Josefin Sans', 'sans-serif';
     font-weight: 300;
     color: #596e79;
 }
-
 /* Headings and logo */
-
 h1,
 h2 {
     font-family: Joefin sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-
 .logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
     color: #596e79;
 }
-
 /* Menu */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
-
 /* Line height for header secion, used body and logo id tags layout presented in multiples of 75  */
 #menu .logo {
     line-height: 75px;
     text-align: center;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
     margin-top: 15px;
-
-
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
-
 /* hover function add 1px underline */
 #menu a:hover {
     border-bottom: 1px solid #596e79;
 }
-
-
 /* Cover Text Styling boilerplate*/
-
 .cover-text,
 .cover-text h2 {
     color: #fff;
 }
-
 /* Hero Image */
 .hero-image {
     height: 600px;
@@ -77,8 +61,6 @@ h2 {
     background-size: cover;
     overflow: hidden;
 }
-
-
 /* Cover Text */
 .cover-text {
     font-size: 150%;
@@ -89,41 +71,30 @@ h2 {
     padding-top: 15px;
     padding-left: 30px;
     padding-bottom: 30px;
-
     background-color: rgba(199, 177, 98, .8);
-
     /* Padding from bottom of hero image section */
     bottom: 130px;
     right: 150px;
     /*Position relative to hero image */
     position: absolute;
 }
-
 .cover text>h3 {
     text-align: right;
 }
-
 /* Club info section styling left and right */
-
 #club-info {
     height: 600px;
 }
-
 .info-left {
     padding-top: 50px;
     width: 50%;
     float: left;
-
 }
-
 .info-right {
     padding-top: 15px;
     width: 50%;
     float: right;
-
-
 }
-
 /* Styling the Page Break */
 hr {
     border-bottom: 3px solid #596e79;
@@ -131,28 +102,21 @@ hr {
     margin-bottom: 7px;
     margin-top: 0%;
 }
-
 .hr-one {
     width: 70%;
 }
-
 .hr-two {
     width: 75%;
 }
-
 .hr-three {
     width: 85%;
 }
-
 .hr-four {
     width: 70%;
 }
-
 .hr-five {
     width: 75%;
 }
-
-
 /* Sytling the right info headings */
 .info-right-header {
     width: 66%;
@@ -161,19 +125,15 @@ hr {
     clear: both;
     margin-bottom: 10px;
 }
-
 .info-right-header h2 p {
     text-align: right;
 }
-
 /* Swap-shop section header */
 .swap-shop {
     text-align: center;
     font-size: 300%;
     margin: 25px 0;
-
 }
-
 /* Circle image for info section left */
 .circle-container {
     width: 300px;
@@ -184,9 +144,7 @@ hr {
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
-
 }
-
 .circle-cover-bg {
     background: url('../images/circle-record.jpg')no-repeat center center;
     height: 100%;
@@ -194,7 +152,6 @@ hr {
     border-radius: 50%;
     background-size: cover;
 }
-
 /* Meet up section image */
 #meetups {
     background-image: url('../images/footer-records.jpg');
@@ -203,9 +160,7 @@ hr {
     background-position: center;
     width: 100%;
     overflow: hidden;
-
 }
-
 #meetups div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .7);
@@ -216,26 +171,18 @@ hr {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-
-
 }
-
 /* Footer */
 footer {
     height: 150px;
 }
-
 /* align footer links horizontally */
-
 .socials {
     text-align: center;
 }
-
 .socials>li {
     display: inline;
-
 }
-
 /* Footer styling to icons */
 .socials i {
     font-size: 180%;
@@ -243,10 +190,7 @@ footer {
     padding: 5%;
     color: #596e79;
 }
-
-
 /* Gallery */
-
 #photos {
     clear: both;
     /*sets to hover below header*/
@@ -254,13 +198,10 @@ footer {
     column-count: 2;
     column-gap: 0;
 }
-
 #photos>img {
     width: 100%;
 }
-
 /* Form */
-
 #form-title {
     clear: both;
     overflow: hidden;
@@ -270,60 +211,46 @@ footer {
     padding-top: 75px;
     padding-left: 30px;
 }
-
 /* Style form headings */
-
 .vendor {
     font-family: Fira Mono;
     font-size: 200%;
     text-align: center;
     letter-spacing: -1px;
 }
-
 .vendor-p {
     font-family: Fira mono;
     padding: 10px;
     font-size: 150%;
     text-align: center;
 }
-
 /* Form styling main body */
-
 .form-main {
     font-family: Fira Mono;
     text-align: center;
 }
-
 .user-details {
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 150%;
     text-align: center;
-
 }
-
 #fname {
-
     background-color: #dfd3c3;
     width: 40%
 }
-
 #lname {
-
     background-color: #dfd3c3;
     width: 40%;
 }
-
 .contact {
     padding-top: 16px;
     padding-bottom: 8px;
 }
-
 #email {
     background-color: #dfd3c3;
     width: 40%;
 }
-
 /* Style sign up button */
 #sign-up {
     height: 10%;
@@ -333,15 +260,9 @@ footer {
     background-color: #596e79;
     color: #f0ece2;
     text-decoration: none;
-
-
 }
-
 /*Aligns menu and centre div for reading on smaller screens */
-
 @media screen and (max-width:768px) {
-
-
     #menu {
         clear: left;
         float: left;
@@ -349,43 +270,32 @@ footer {
         margin: right 20px;
         line-height: 25px;
     }
-
     .info-left {
         float: left;
         width: 100%;
         padding: 0;
-        
-
     }
-
     .info-right {
         clear: both;
         float: right;
         width: 75%;
-              
         text-align: center;
     }
-
     hr {
         display: none;
     }
-
     .cover-text {
         /*aligns cover text to left*/
         left: 0;
         border-top: 200px
     }
-
     #meetups > div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 5%;
     }
-
-
 }
-
 @media screen and (max-width:320px) {
     #menu {
         clear: left;
@@ -395,15 +305,10 @@ footer {
         line-height: 25px;
         font-size: 80%;
     }
-
     .info-left {
         float: left;
         width: 50%;
-       
-        
-
     }
-
     .info-right {
         clear: both;
         padding: 0;
@@ -414,7 +319,6 @@ footer {
     .logo {
         font-size: 150%;
     }
-
     /* Hero Image */
     .hero-image {
         height: 600px;
@@ -424,7 +328,5 @@ footer {
         background-image: url('../images/lego-hero.jpg');
         background-repeat: no-repeat;
         overflow: hidden;
-        
-    }
-
+     }
 }
