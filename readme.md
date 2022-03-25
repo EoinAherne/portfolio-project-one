@@ -1,8 +1,12 @@
-# <p align="center"> Eoin Aherne - Portfolio Project 1 - Code Institute </p>
+# <p align="center"> Eoin Aherne - Portfolio Project 1 - Record Swap Shop </p>
 
-![Responsive screen template](../portfolio-project-one/assets/images/responsive-screens-template.jpg)
 
-This is a website for a nationwide Record Swap Shop event. It is designed to be fully responsive and accessible across a large range of devices. Laid out in a clear fashion, it should be easy to naviagate for first time and returning users 
+![Responsive screen template](../portfolio-project-one/assets/images/responsive-screens-template.jpg) 
+
+
+This is a website for a nationwide Record Swap Shop event. It is designed to be fully responsive and accessible across a large range of devices. Laid out in a clear fashion, it should be easy to naviagate for first time and returning users. 
+
+[You can visit the site by clicking this link](https://eoinaherne.github.io/portfolio-project-one/index.html)
 
 
 # User Experience (UX) 
