@@ -21,7 +21,7 @@ h2 {
     letter-spacing: 4px;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -35,7 +35,7 @@ h2 {
 }
 
 /* Line height for header secion, used body and logo id tags layout presented in multiples of 75  */
-#menu #logo {
+#menu .logo {
     line-height: 75px;
     text-align: center;
 }
@@ -63,13 +63,13 @@ h2 {
 
 /* Cover Text Styling boilerplate*/
 
-#cover-text,
-#cover-text h2 {
+.cover-text,
+.cover-text h2 {
     color: #fff;
 }
 
 /* Hero Image */
-#hero-image {
+.hero-image {
     height: 600px;
     width: 100%;
     position: relative;
@@ -80,7 +80,7 @@ h2 {
 
 
 /* Cover Text */
-#cover-text {
+.cover-text {
     font-size: 150%;
     font-family: Josefin sans, sans-serif;
     letter-spacing: 3px;
@@ -99,7 +99,7 @@ h2 {
     position: absolute;
 }
 
-#cover text>h3 {
+.cover text>h3 {
     text-align: right;
 }
 
@@ -109,14 +109,14 @@ h2 {
     height: 600px;
 }
 
-#info-left {
-    padding-top: 15px;
+.info-left {
+    padding-top: 50px;
     width: 50%;
     float: left;
 
 }
 
-#info-right {
+.info-right {
     padding-top: 15px;
     width: 50%;
     float: right;
@@ -132,42 +132,42 @@ hr {
     margin-top: 0%;
 }
 
-#hr-one {
-    width: 44%;
+.hr-one {
+    width: 70%;
 }
 
-#hr-two {
-    width: 54%;
-}
-
-#hr-three {
-    width: 60%;
-}
-
-#hr-four {
+.hr-two {
     width: 75%;
 }
 
-#hr-five {
-    width: 49%;
-}
+.hr-three {
+    width: 85%;
 }
 
+.hr-four {
+    width: 70%;
+}
+
+.hr-five {
+    width: 75%;
+}
+
+
 /* Sytling the right info headings */
-#info-right-header {
+.info-right-header {
     width: 66%;
     float: left;
     line-height: 25px;
     clear: both;
-    margin-bottom: 50px
+    margin-bottom: 10px;
 }
 
-#info-right-header h2 p {
+.info-right-header h2 p {
     text-align: right;
 }
 
 /* Swap-shop section header */
-#swap-shop {
+.swap-shop {
     text-align: center;
     font-size: 300%;
     margin: 25px 0;
@@ -175,7 +175,7 @@ hr {
 }
 
 /* Circle image for info section left */
-#circle-container {
+.circle-container {
     width: 300px;
     height: 300px;
     padding: 25px;
@@ -187,7 +187,7 @@ hr {
 
 }
 
-#circle-cover-bg {
+.circle-cover-bg {
     background: url('../images/circle-record.jpg')no-repeat center center;
     height: 100%;
     width: auto;
@@ -221,7 +221,7 @@ hr {
 }
 
 /* Footer */
-#footer {
+footer {
     height: 150px;
 }
 
@@ -273,14 +273,14 @@ hr {
 
 /* Style form headings */
 
-#vendor {
+.vendor {
     font-family: Fira Mono;
     font-size: 200%;
     text-align: center;
     letter-spacing: -1px;
 }
 
-#vendor-p {
+.vendor-p {
     font-family: Fira mono;
     padding: 10px;
     font-size: 150%;
@@ -289,12 +289,12 @@ hr {
 
 /* Form styling main body */
 
-#form-main {
+.form-main {
     font-family: Fira Mono;
     text-align: center;
 }
 
-#user-details {
+.user-details {
     padding-top: 8px;
     padding-bottom: 8px;
     font-size: 150%;
@@ -314,7 +314,7 @@ hr {
     width: 40%;
 }
 
-#contact {
+.contact {
     padding-top: 16px;
     padding-bottom: 8px;
 }
@@ -350,30 +350,33 @@ hr {
         line-height: 25px;
     }
 
-    #info-left {
+    .info-left {
         float: left;
         width: 100%;
         padding: 0;
+        
 
     }
 
-    #info-right {
+    .info-right {
         clear: both;
-        padding: 0;
-        width: 100%;
+        float: right;
+        width: 75%;
+              
+        text-align: center;
     }
 
     hr {
         display: none;
     }
 
-    #cover-text {
+    .cover-text {
         /*aligns cover text to left*/
         left: 0;
         border-top: 200px
     }
 
-    #meetups>div {
+    #meetups > div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -393,20 +396,35 @@ hr {
         font-size: 80%;
     }
 
-    #logo {
+    .info-left {
+        float: left;
+        width: 50%;
+       
+        
+
+    }
+
+    .info-right {
+        clear: both;
+        padding: 0;
+        width: 75%;
+       border-left: 20px;
+        text-align: center;
+    }
+    .logo {
         font-size: 150%;
     }
 
     /* Hero Image */
-    #hero-image {
+    .hero-image {
         height: 600px;
         width: 100%;
         position: relative;
-        float: left;
+        float: 0;
         background-image: url('../images/lego-hero.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
         overflow: hidden;
+        
     }
 
 }
