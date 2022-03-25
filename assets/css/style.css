@@ -324,7 +324,6 @@ footer {
         height: 600px;
         width: 100%;
         position: relative;
-        float 0;
         background-image: url('../images/lego-hero.jpg');
         background-repeat: no-repeat;
         overflow: hidden;
