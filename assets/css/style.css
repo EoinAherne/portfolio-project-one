@@ -11,8 +11,8 @@ body {
     color: #596e79;
 }
 /* Headings and logo */
-h1,
-h2 {
+h2
+ {
     font-family: 'Josefin sans', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: 4px;
