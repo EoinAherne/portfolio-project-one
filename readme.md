@@ -31,3 +31,20 @@ This is a website for a nationwide Record Swap Shop event. It is designed to be 
 - As a frequent user, I want to be able to find updated information about upcoming events
 - As a frequent user, I want to see if there has been any updates made to the event
 - As a frequent user, I want to join the swap meets and sell or swap my own records
+
+<br>
+
+# Design
+
+## Colour Scheme
+
+- The colour scheme i chose was from a pallette colour template. I had originally looked for a hero image for the site, i then based the colour pallette i picked to contrast well with the hero image chosen.
+
+## Typograpy
+
+- I researched font types that were used together on Music themed sites such as the one i created. 
+- The fonts i chose were 'Josefin Sans' & 'Fira Mono', with sans-serif being used as a backup font, in case a browser wouldn't load the imported choices.
+
+## Imagery 
+
+-I chose to use the 'hero image' style of design for my project. I chose an eyecatching image, that immeadietly informs the viewer of what the site is about. It is also quite detailed and pleasing to look at while spending time on the site
